@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+	android:paddingTop="20dp"
+	android:background="@drawable/ecrbackground1"
+    >
+
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:id="@+id/event_title"
+        android:gravity="center"
+        
+    />
+  <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+	android:gravity="center"
+    >
+    
+     <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/files_transferred"/>
+    <TextView android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="@string/thank_you"/>
+
+    
+     </LinearLayout>
+          <Button
+    android:id="@+id/appExitButton"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="#0fff0f"
+     android:gravity="center"
+    android:text="EXIT"/>
+</LinearLayout>

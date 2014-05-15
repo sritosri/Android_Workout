@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, AttendenceTracker!</string>
+    <string name="app_name">AttendenceTracker</string>
+     <string name="attendancetracker">Event Attendance Tracker</string>
+          <string name="event_name">Event Name: </string>
+           <string name="event_location">Location/Event ID: </string>
+            <string name="event_room">Room/Gate: </string>
+             <string name="event_attendance">Attendance ID:</string>
+              <string name="event_continue">Continue</string>
+                  <string name="rfreader">RF Reader </string>
+                   <string name="keyboardinput">Key Board Input</string>
+                   <string name="connecting">Connecting to Blue Snap...</string>
+                    <string name="rf_data">RF 230,9740,430...</string>
+                     <string name="manual_data"> KB 480,780,5732,455...</string>
+               <string name="enterdetails">Please Enter the Details </string>
+                <string name="first_name">First Name </string>
+                 <string name="last_name">Last Name </string>
+                  <string name="badgeid">Badge ID </string>
+                   <string name="entity_name">Entity Name </string>
+                    <string name="others">Other Ref </string>
+                <string name="save_file">Save to File and Exit</string>
+                    <string name="send_email">EMail</string>
+                        <string name="remote_sync">Remote Sync</string>
+                 <string name="thank_you">Thank You</string>
+                     <string name="file_name">File Name: </string>
+                     <string name="save_loc">Save 2 Loc : </string>
+                      <string name="default1">Default</string>
+                      <string name="done">Done</string> 
+                         <string name="email">EMail:</string> 
+                             <string name="subject">Subject:</string> 
+                                 <string name="sender_name">Sender Name:</string>  
+                     <string name="remote">Remote IP:</string> 
+                             <string name="user_name">User Name:</string> 
+                                 <string name="password">Password:</string>  
+                           <string name="athenticate">AUTHENTICATE</string> 
+                      <string name="files_transferred">Files Transferred/Saved.</string> 
+                       <string name="exit_button">Exit</string> 
+</resources>

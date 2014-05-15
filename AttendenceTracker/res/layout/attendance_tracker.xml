@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/ecr_backgrond2"
+    >
+<TextView  
+    android:layout_width="fill_parent" 
+    android:layout_height="wrap_content" 
+    android:text="@string/attendancetracker"
+    android:gravity="center"
+    />
+    
+   <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingTop="10dp"
+    android:paddingLeft="10dp"
+    android:gravity="center"
+    >
+       <LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    >
+        <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:text="@string/event_name"/>
+    <EditText
+    android:id="@+id/editeventname"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:singleLine="true"
+    />
+    
+     </LinearLayout>
+        <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:text="@string/event_location"/>
+    <EditText 
+    android:id="@+id/editEventID"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:singleLine="true"/>
+    
+     </LinearLayout>
+        <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:text="@string/event_room"/>
+    <EditText 
+    android:id="@+id/editRoomID"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:singleLine="true"/>
+    
+     </LinearLayout>
+        <LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <TextView android:layout_width="120dp"
+    android:layout_height="wrap_content"
+    android:text="@string/event_attendance"/>
+    <EditText 
+    android:id="@+id/attendanceID"
+    android:layout_width="190dp"
+    android:layout_height="wrap_content"
+    android:singleLine="true"/>
+    
+     </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="end"
+    >
+	
+	    <Button
+	    android:id="@+id/MaincontinueBtn"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/event_continue"/>
+	    <Button
+	    android:id="@+id/exitBtn"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:text="@string/exit_button"
+	     android:gravity="center"/>
+	    
+    </LinearLayout>
+    
+    
+    </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

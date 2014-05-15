@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" 
+    android:paddingTop="10dp"
+    android:background="@drawable/ecr_backgrond2"
+    >
+	
+	<TextView
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/enterdetails"
+    android:gravity="center"
+	/>
+
+    	<LinearLayout
+    	android:orientation="vertical"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:paddingLeft="10dp"
+    	android:paddingTop="20dp"
+    	android:gravity="center"
+    	>
+    	       <LinearLayout
+    			android:orientation="vertical"
+    			android:layout_width="wrap_content"
+    			android:layout_height="wrap_content"
+    			>
+    
+ 			<LinearLayout
+    		android:orientation="horizontal"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:gravity="center"
+    		>
+    			<TextView android:layout_width="120dp"
+    			android:layout_height="wrap_content"
+    			android:text="@string/first_name"/>
+    			<EditText 
+    			android:id="@+id/kbdFirstName"
+    			android:layout_width="190dp"
+    			android:layout_height="wrap_content"
+    			android:singleLine="true"
+    			/>
+    		</LinearLayout>
+
+ 		<LinearLayout
+	    android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+   		android:layout_height="wrap_content"
+   		android:gravity="center"
+    	>
+    		<TextView android:layout_width="120dp"
+    		android:layout_height="wrap_content"
+    		android:text="@string/last_name"/>
+    		<EditText 
+    		android:id="@+id/kbdLastName"
+    		android:layout_width="190dp"
+    		android:layout_height="wrap_content"
+    		android:singleLine="true"/>
+        </LinearLayout>
+   
+        <LinearLayout
+   		android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	>
+	    	<TextView android:layout_width="120dp"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/badgeid"/>
+	    	<EditText 
+	    	android:id="@+id/kbdBadgeID"
+	    	android:layout_width="190dp"
+	    	android:layout_height="wrap_content"
+	   	 	android:singleLine="true"/>
+        </LinearLayout>
+    
+        <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	>
+   	 	<TextView android:layout_width="120dp"
+    	android:layout_height="wrap_content"
+   		android:text="@string/entity_name"/>
+    	<EditText 
+    	android:id="@+id/kbdEntityName"
+    	android:layout_width="190dp"
+    	android:layout_height="wrap_content"
+    	android:singleLine="true"/>
+        </LinearLayout>
+    
+      <LinearLayout
+    	android:orientation="horizontal"
+    	android:layout_width="fill_parent"
+    	android:layout_height="wrap_content"
+    	android:gravity="center"
+    	>
+	   	 <TextView android:layout_width="120dp"
+	    	android:layout_height="wrap_content"
+	    	android:text="@string/others"/>
+	    <EditText 
+	    	android:id="@+id/kbdOthers"
+	    	android:layout_width="190dp"
+	   	 	android:layout_height="wrap_content"
+	   	 	android:singleLine="true"/>
+    </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:gravity="right"
+    >
+	    <Button
+	    android:id="@+id/kbdInputcontinuebtn"
+	    android:layout_width="100dp"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:text="@string/event_continue" android:layout_marginLeft="50dp"/>
+    </LinearLayout>      
+    
+   </LinearLayout>
+   </LinearLayout>
+     
+
+
+
+</LinearLayout>
+   
+

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingTop="20dp"
+    android:gravity="center"
+    android:background="@drawable/ecr_backgrond2"
+    >
+
+
+
+    <Button 
+	    android:id="@+id/emailSelection"
+	   android:layout_width="150dp"
+	   android:layout_height="wrap_content"
+	   android:text="@string/send_email"/>
+	
+	<Button 
+	    android:id="@+id/remotesyncSelection"
+	   android:layout_width="150dp"
+	   android:layout_height="wrap_content"
+	   android:text="@string/remote_sync"/>
+	<Button
+		android:id="@+id/syncContinuebtn"
+		android:layout_width="150dp"
+		android:layout_height="wrap_content"
+		android:text="@string/event_continue"
+		android:gravity="center"/>
+ 	<Button 
+	   android:id="@+id/saveFileExit"
+	   android:layout_width="150dp"
+	   android:layout_height="wrap_content"
+	   android:text="@string/save_file"/>
+	
+</LinearLayout>
